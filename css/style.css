@@ -656,10 +656,6 @@ body.locked {
   color: #02033b;
 }
 
-.spyware__button-bloc {
-  margin-top: 0;
-}
-
 .help__blocs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -695,7 +691,6 @@ body.locked {
   background: linear-gradient(180deg, #f7c95f, #fdb235);
   border-radius: 48px;
   width: 460px;
-  height: 296px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1193,7 +1188,7 @@ body.locked {
 .footer__sing-mail {
   padding: 8px 16px;
   color: #000;
-  border-radius: 40px 0 0 40px;
+  border-radius: 20px 0 0 20px;
   font-size: 15px;
   font-family: "Inter", sans-serif;
   font-weight: 800;
@@ -1211,7 +1206,7 @@ body.locked {
   color: #fff;
   padding: 8px 27px;
   background: #02033b;
-  border-radius: 0 40px 40px 0;
+  border-radius: 0 20px 20px 0;
 }
 
 .footer__row {
@@ -1738,6 +1733,11 @@ body.locked {
     gap: 30px;
   }
 
+  .last__title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
   .last__blocs {
     gap: 20px;
     -webkit-box-orient: vertical;
@@ -1951,11 +1951,38 @@ body.locked {
     line-height: px;
   }
 
+  .spyware__button-bloc {
+    margin-top: 0;
+  }
+
   .help__bloc-top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .help__box-left {
+    max-width: 300px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+  }
+
+  .help__bloc-bottom-bloc {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 15px;
+    padding: 0 20px;
+  }
+
+  .help__bloc-bottom-title {
+    max-width: 240px;
+  }
+
+  .last__container {
+    gap: 15px;
   }
 
   .last__bloc {
@@ -1993,7 +2020,7 @@ body.locked {
 
   .footer {
     gap: 20px;
-    padding: 40px;
+    padding: 40px 5px;
   }
 
   .footer__container {
@@ -2013,7 +2040,7 @@ body.locked {
   }
 
   .footer__desc-mt {
-    margin-top: 30px;
+    margin-top: 0px;
   }
 
   .footer__bloc-second {
@@ -2024,8 +2051,37 @@ body.locked {
     padding-bottom: 10px;
   }
 
+  .footer__menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px 30px;
+  }
+
   .footer__sing-bloc {
-    gap: 15px;
+    max-width: 285px;
+    height: auto;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .footer__sing-form {
+    max-width: 285px;
+    height: auto;
+    gap: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer__sing-mail {
+    width: 245px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .footer__sing-button {
+    width: 245px;
+    border-radius: 0 0 10px 10px;
   }
 }
 
